@@ -36,4 +36,4 @@ function fibonacci1(n) {
   console.log(result);
   return result;
 }
-fibonacci(5);
+fibonacci1(5);

@@ -13,10 +13,10 @@
 
 
 //*Recursive function to reverse a string 
-// function reverse(str) {
-//   if (str.length <= 1) return str;
-//   return reverse(str.slice(1)) + str[0];
-// }
+function missyElliot(str) {
+  if (str.length <= 1) return str;
+  return missyElliot(str.slice(1)) + str[0];
+}
 
 //*Another recursive function
 function reverse(str) {
@@ -24,6 +24,7 @@ function reverse(str) {
   else return reverse(str.substr(1)) + str.charAt(0);
 }
 
+console.log(missyElliot("holiday"));
 console.log(reverse('holiday')) // yadiloh
 // console.log(reverse("perro")) // orrep
 // console.log(reverse("quetzalcoatl")) // ltaoclazteuq

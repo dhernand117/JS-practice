@@ -14,9 +14,9 @@ function countingValleys(n, s) {
   });
   return valleyCount;
 }
-console.log(countingValleys(13, "DDUUDDUDUUUD"));
-console.log(countingValleys(1, "DDDUUUDDUDDUUDDUUUDU"));
-console.log(countingValleys(0, "UUDDDDUUDUDUDDDUUUUD"));
+console.log(countingValleys(0, "DDUU"));
+// console.log(countingValleys(1, "DDDUUUDDUDDUUDDUUUDU"));
+// console.log(countingValleys(0, "UUDDDDUUDUDUDDDUUUUD"));
 
 // function countingValleys(steps, path) {
 //   // Vally's count when you go below sea level and back up
