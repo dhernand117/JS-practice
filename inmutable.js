@@ -13,3 +13,4 @@ function updateName(obj) {
 
 const updatedObj = updateName(obj);
 console.log(obj, updatedObj);
+//*Structural sharing is a way to call the copies of the objects and mutate those insted of changing the initial state.

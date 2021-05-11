@@ -1,3 +1,5 @@
+//*This basic hash function will take a string as a key and an array length and return an index position.
+//*This basic hash is not constant time
 function hash(key, arrayLen) {
   let total = 0;
   for (let char of key) {
@@ -7,3 +9,5 @@ function hash(key, arrayLen) {
   }
   return total;
 }
+console.log(hash('string', 10));
+console.log(hash("orange", 10));

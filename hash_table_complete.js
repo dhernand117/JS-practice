@@ -1,3 +1,10 @@
+//*Hash functions are defined by being fast in accessing and writing data
+//*The way to handle collisions between data is by:
+//*Separate chaining, meaning that at each index we use a more sophisticated data structure
+//* (array, linked list) that can accept multiple key-value pairs at the same index
+//*Linear Probing, we store 1 piece of data at a given index and if we find a collision we store it at the next empty slot
+//*This will use single key-value data only
+
 class HashTable {
   constructor(size=53){
     this.keyMap = new Array(size);

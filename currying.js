@@ -1,6 +1,7 @@
 //*currying is a function that takes a parameter at a time and waits for the inner function to be done to return the result
 //*this way we can create utility functions
-
+//*Currying is converting a single function of n arguments into n functions with a single argument each.
+//*So you can say Currying is a way to reduce functions of more than one argument to functions of one argument.
 //Currying
 const multiply = (a, b) => a * b
 const curriedMultiply = (a) => (b) => a * b
