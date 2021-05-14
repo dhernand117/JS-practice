@@ -1,6 +1,6 @@
 //*Encapsulation means that code is wrapped into boxes in our case methods functions and properties
 //*Abstraction is that we create instatiations of complex classes to enable functionality in child components
-//*Inheritance in OOP means that somo "children" functions or objects can have access to methods and functions of a parent class
+//*Inheritance in OOP means that som "children" functions or objects can have access to methods and functions of a parent class
 //*Polimorphism means that we can call the same method on different objects and each different object using it can yield different results
 class Character {
   constructor(name, weapon) {
