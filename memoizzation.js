@@ -53,3 +53,13 @@ console.log(1, memoized(6))
 // console.log(cache)
 // console.log('-----------')
 console.log(2, memoized(6))
+//*tabulated version of fibbonacci
+function tabFIbbo(n){
+  if(n<=2) return 1;
+  var fibNums = [0,1,1];
+  for(var i =3; i<=n; i++){
+    fibNums[i] = fibNums[i-1] + fibNums[i-2];
+  }
+  return fibNums[n]
+}
+console.log(tabFIbbo(17));
